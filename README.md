@@ -2,7 +2,7 @@
 # AstroFolio
 Portfolio personal hecho con Astro
 =======
-# 👨‍🚀 Astro - Portfolio Template
+# 👨‍🚀 Astro - Portfolio Juan José Seguí
 
 ## 🧞 Commands
 
