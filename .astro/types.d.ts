@@ -33,6 +33,7 @@ declare module 'astro:content' {
 				import('astro/zod').ZodLiteral<'webp'>,
 				import('astro/zod').ZodLiteral<'gif'>,
 				import('astro/zod').ZodLiteral<'svg'>,
+				import('astro/zod').ZodLiteral<'avif'>,
 			]
 		>;
 	}>;
@@ -174,16 +175,23 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
-"01-the-power-of-react-hooks copy.md": {
-	id: "01-the-power-of-react-hooks copy.md";
-  slug: "the-power-of-react-hooks";
+"01-Introducción-a-odoo.md": {
+	id: "01-Introducción-a-odoo.md";
+  slug: "El poder de Odoo a tu alcance";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"02-untitled.md": {
-	id: "02-untitled.md";
-  slug: "untitled";
+"02-Videojuego-tipo-puzzle.md": {
+	id: "02-Videojuego-tipo-puzzle.md";
+  slug: "Videojuego ColorRows";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"03-otro.md": {
+	id: "03-otro.md";
+  slug: "untitled2";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
